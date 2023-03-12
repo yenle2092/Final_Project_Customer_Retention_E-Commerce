@@ -12,20 +12,20 @@ The dataset has information of 100k orders from 2016 to 2018 made at multiple ma
 I used the Kaggle API. It provides an easy-to-use command-line interface for searching for, selecting, and downloading Kaggle datasets: the Brazilian E-Commerce Public Dataset by Olist
 
 
-## Data preparation: 
-To begin, I first checked the overview of all tables in the dataset and chose 6 tables that were most relevant to the analysis for this project. I then deleted a few columns that contained information not necessarily related to the result of this project.
+### Data preparation: 
+- To begin, I first checked the overview of all tables in the dataset and chose 6 tables that were most relevant to the analysis for this project. I then deleted a few columns that contained information not necessarily related to the result of this project.
 
-Next, I handled the missing values in the selected tables to ensure the data was accurate and complete.
+- Next, I handled the missing values in the selected tables to ensure the data was accurate and complete.
 
-After examining the data, I decided to choose only the data for 2017, as the data for 2016 and 2018 were incomplete.
+- After examining the data, I decided to choose only the data for 2017, as the data for 2016 and 2018 were incomplete.
 
-To ensure the data was not skewed by outliers, I executed a boxplot on the price and freight_value columns of the items table. I spotted and removed any outliers that were identified.
+- To ensure the data was not skewed by outliers, I executed a boxplot on the price and freight_value columns of the items table. I spotted and removed any outliers that were identified.
 
-To better analyze the data, I calculated the total amount of each order by adding the product price and freight value columns.
+- To better analyze the data, I calculated the total amount of each order by adding the product price and freight value columns.
 
-Finally, I merged all the selected tables into one and removed any duplicates to produce the final dataset.
+- Finally, I merged all the selected tables into one and removed any duplicates to produce the final dataset.
 
-## EDA:
+### EDA:
 For EDA, some patterns were discovered in our dataset:
 
 - Cohort Analysis of the number of retention customers and retention rate. This helped to identify trends in customer behavior and how often they return to make a purchase.
@@ -40,7 +40,7 @@ For EDA, some patterns were discovered in our dataset:
 
 - Distribution of Review Scores: identify any patterns or trends in customer feedback. 
 
-## Machine Learning Model: 
+### Machine Learning Model: 
 I used machine learning models to gain further insights into customer behavior and predict customer lifetime value (CLV).
 
 - Unsupervised Learning Model : I used a K-means clustering model with k=4 to cluster customers based on their RFM metric (Recency - Frequency - Monetary) and gain insights into different customer segments.
@@ -52,6 +52,11 @@ I used machine learning models to gain further insights into customer behavior a
 
 By comparing the performance of these models with Mean Squared Error	R-squared Score , I was able to select the best-fitted model for our dataset.
 
+## Future Opportunities: 
+- Churn Prediction: Identify churn rate as a key customer retention KPI. Developing a churn prediction model could help businesses identify customers who are at risk of leaving and implement targeted retention strategies.
 
+- Product Recommendation: By analyzing customer purchase history and behavior, businesses can develop personalized product recommendations. Implementing a recommendation system could improve customer satisfaction and increase revenue
+
+## Extra information: 
 
 
