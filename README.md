@@ -12,7 +12,7 @@ The dataset has information of 100k orders from 2016 to 2018 made at multiple ma
 I used the Kaggle API. It provides an easy-to-use command-line interface for searching for, selecting, and downloading Kaggle datasets: the Brazilian E-Commerce Public Dataset by Olist
 
 
-### Data preparation: 
+### Data cleaning: 
 - To begin, I first checked the overview of all tables in the dataset and chose 6 tables that were most relevant to the analysis for this project. I then deleted a few columns that contained information not necessarily related to the result of this project.
 
 - Next, I handled the missing values in the selected tables to ensure the data was accurate and complete.
