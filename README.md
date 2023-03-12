@@ -9,7 +9,7 @@ The dataset has information of 100k orders from 2016 to 2018 made at multiple ma
 ## Workflow:
 
 ### Data collection:  
-I used the Kaggle API. The Kaggle API provides an easy-to-use command-line interface for searching for, selecting, and downloading Kaggle datasets: the Brazilian E-Commerce Public Dataset by Olist
+I used the Kaggle API. It provides an easy-to-use command-line interface for searching for, selecting, and downloading Kaggle datasets: the Brazilian E-Commerce Public Dataset by Olist
 
 
 ## Data preparation: 
@@ -39,4 +39,19 @@ For EDA, some patterns were discovered in our dataset:
 - Produit Category : identify the top 10 categories with the highest number of product orders and the top 10 categories with the highest revenue. 
 
 - Distribution of Review Scores: identify any patterns or trends in customer feedback. 
+
+## Machine Learning Model: 
+I used machine learning models to gain further insights into customer behavior and predict customer lifetime value (CLV).
+
+- Unsupervised Learning Model : I used a K-means clustering model with k=4 to cluster customers based on their RFM metric (Recency - Frequency - Monetary) and gain insights into different customer segments.
+
+- Supervised Machine Learning Models for CLV Prediction: I divided the dataset into train and test sets, with 80% of the data used for training and 20% for testing. I then used various supervised machine learning models to predict the customer lifetime value (CLV): 
+    + Linear Regression
+    + Support vector regression (SVR)
+    + K-Neighbors Regression (KNN)
+
+By comparing the performance of these models with Mean Squared Error	R-squared Score , I was able to select the best-fitted model for our dataset.
+
+
+
 
