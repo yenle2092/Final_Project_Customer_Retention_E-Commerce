@@ -59,7 +59,9 @@ By comparing the performance of these models with Mean Squared Error	R-squared S
 
 ## Extra information: 
 - Project management Trello: https://trello.com/b/0eXVBfhA/finalproject-customer-retention#
-![Trello](url)
+
+![Trello](https://github.com/yenle2092/Final_Project_Customer_Retention_E-Commerce/blob/main/Trello.JPG)
+
 - Slide presentation: 
 
 
