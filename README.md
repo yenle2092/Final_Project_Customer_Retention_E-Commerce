@@ -59,10 +59,12 @@ By comparing the performance of these models with Mean Squared Error	R-squared S
 - Product Recommendation: By analyzing customer purchase history and behavior, businesses can develop personalized product recommendations. Implementing a recommendation system could improve customer satisfaction and increase revenue
 
 ## Extra information: 
+- Slide presentation: 
+
 - Project management Trello: https://trello.com/b/0eXVBfhA/finalproject-customer-retention#
 
 ![Trello](https://github.com/yenle2092/Final_Project_Customer_Retention_E-Commerce/blob/main/Trello_plan.JPG)
 
-- Slide presentation: 
+
 
 
