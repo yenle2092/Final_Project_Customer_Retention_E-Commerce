@@ -1,4 +1,5 @@
 # Final_Project_Customer_Retention_E-Commerce
+![Logo](https://github.com/yenle2092/Final_Project_Customer_Retention_E-Commerce/blob/main/Customer.JPG)
 
 ## Project Goal: 
 The goal of this project is to analyze an e-commerce dataset to provide valuable insights into customer behavior and develop strategies for customer retention. Using unsupervised machine learning, specifically K-means clustering via the RFM model (Recency - Frequency - Monetary), I segment customers to better understand their preferences. Additionally, I employ supervised learning models to predict customer lifetime value, enabling the implementation of targeted retention strategies. My ultimate objective is to able to provide actionable recommendations to improve customer retention and increase customer loyalty.
@@ -58,10 +59,12 @@ By comparing the performance of these models with Mean Squared Error	R-squared S
 - Product Recommendation: By analyzing customer purchase history and behavior, businesses can develop personalized product recommendations. Implementing a recommendation system could improve customer satisfaction and increase revenue
 
 ## Extra information: 
+- Slide presentation: 
+
 - Project management Trello: https://trello.com/b/0eXVBfhA/finalproject-customer-retention#
 
 ![Trello](https://github.com/yenle2092/Final_Project_Customer_Retention_E-Commerce/blob/main/Trello_plan.JPG)
 
-- Slide presentation: 
+
 
 
