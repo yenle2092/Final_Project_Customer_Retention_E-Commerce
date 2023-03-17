@@ -22,9 +22,10 @@ INNER JOIN items i ON o.order_id = i.order_id
 INNER JOIN products p ON i.product_id = p.product_id
 INNER JOIN reviews r ON i.order_id = r.order_id
 INNER JOIN category_translation ct ON p.product_category_name = ct.product_category_name) data;
+SELECT * FROM final_data;
 
 ## Add column total_amount = price + freight_ value in the final_data
-ALTER TABLE final_data MODIFY price FLOAT, 
+ALTER TABLE final_data MODIFY price FLOAT,  #modify the datatype of the column price and freight_value
 					   MODIFY freight_value FLOAT;
                        
 ALTER TABLE final_data ADD COLUMN total_amount FLOAT;
